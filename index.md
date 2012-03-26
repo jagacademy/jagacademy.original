@@ -5,6 +5,17 @@ tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
+1. logo
+2. ligas a las paginas: Programas (ensenia), Mentores, Cultura (valores), Ubicacion (esta), Inscripciones.
+3. subtitulo: we teach passionate people how to build webapps.
+4. resumen: begginner-focused. 11weeks. Downtown Chicago, Code Academy is a game changer for your carrer.
+5. Apply now
+6. WebDesign
+7. WebDevelopment
+8. What We do. (video)
+9. Meet the team (perfiles)
+
+
 Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
 Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
