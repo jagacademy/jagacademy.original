@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Hello World!
+layout: default
+title: JAGAcademy
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
