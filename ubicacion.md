@@ -1,10 +1,10 @@
 ---
-layout: default
+layout: page
 title: Ubicacion
 header: Mentores
 group: navigation
----
-{% include JB/setup %}
+---{
+% include JB/setup %}
 
 1. logo
 2. ligas a las paginas: Programas (ensenia), Mentores, Cultura (valores), Ubicacion (esta), Inscripciones.
