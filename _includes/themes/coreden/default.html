@@ -101,69 +101,6 @@
 				</div>
 			</header>
 			<!-- header -->
-			<div id="featured_slider">
-			<script type="text/javascript" src="{{ ASSET_PATH }}/js/jquery.flexslider-min.js"></script>
-			<script type="text/javascript" charset="utf-8">
-			  $(window).load(function() {
-				$('.flexslider').flexslider({
-				  animation: "fade",				//String: Select your animation type, "fade" or "slide"
-				  controlsContainer: ".flex-container",
-				  slideshow: true,					//Boolean: Animate slider automatically
-				  slideshowSpeed: 3000,				//Integer: Set the speed of the slideshow cycling, in milliseconds
-				  animationDuration: 1200,			//Integer: Set the speed of animations, in milliseconds
-				  directionNav: false,				//Boolean: Create navigation for previous/next navigation? (true/false)
-				  controlNav: true,					//Boolean: Create navigation for paging control of each clide? Note: Leave true for	
-				  mousewheel: true,					//Boolean: Allow slider navigating via mousewheel				  
-				  start: function(slider) {
-					$('.total-slides').text(slider.count);
-				  },
-				  after: function(slider) {
-					$('.current-slide').text(slider.currentSlide);
-				  }
-				});
-			  });
-			</script>	
-				<div class="slider_wrapper">
-			
-					<div class="flexslider">
-						<ul class="slides">
-							<li>
-								<img src="{{ ASSET_PATH }}/images/slider_img1.jpg" />
-								<div class="flex-caption">
-									<div class="flex-title">Escuela Taller</div>
-									La escuela "manos a la obra" de desarrollo de software.
-								</div>
-							</li>
-							<li>
-								<a href="#"><img src="{{ ASSET_PATH }}/images/slider_img2.jpg"  /></a>
-								<div class="flex-caption">
-									<div class="flex-title"></div>
-									La escuela "manos a la obra" de desarrollo de software.
-								</div>
-							</li>
-							<li>
-								<img src="{{ ASSET_PATH }}/images/slider_img3.jpg"  />
-								<div class="flex-caption">
-									<div class="flex-title">C&oacute;mo</div>
-									Enfocados (1 materia por mes) <br />
-									Aprendiendo de mentores experimentados<br />
-									Proyectos reales
-								</div>
-							</li>
-							<li>
-								<img src="{{ ASSET_PATH }}/images/slider_img4.jpg"  />
-								<div class="flex-caption">
-									<div class="flex-title">Qu&eacute; es?</div>
-									12 meses en  Zacatecas Mexico.
-								</div>		
-							</li>
-						</ul>
-					</div>
-
-				</div>
-				<!-- .slider_wrapper -->
-			</div>
-			<!-- #featured_slider -->	
 		
 			<section class="pagemid">
 				<div class="inner">
