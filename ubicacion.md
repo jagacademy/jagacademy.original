@@ -3,8 +3,8 @@ layout: page
 title: Ubicacion
 header: Mentores
 group: navigation
----{
-% include JB/setup %}
+---
+{% include JB/setup %}
 
 Ok I want to say that Zacatecas is a beautiful city.. fit for intellectual work.
 
