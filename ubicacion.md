@@ -5,7 +5,7 @@ header: Mentores
 group: navigation
 tagline: Please work
 ---
-{% include JB/setup %}
+
 
 Ok I want to say that Zacatecas is a beautiful city.. fit for intellectual work.
 
